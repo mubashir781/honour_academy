@@ -18,6 +18,24 @@ body {
     margin: auto;
     padding: 20px 0;
 }
+.schedule-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;   /* moves to next line on small screens */
+}
+
+.schedule-box {
+  padding: 12px 20px;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.schedule-box:hover {
+  background-color: #003080;
+}
 
 /* Header */
 header {
