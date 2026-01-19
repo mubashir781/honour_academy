@@ -18,7 +18,7 @@ body {
     margin: auto;
     padding: 20px 0;
 }
-.schedule {
+.schedule-row {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;   /* moves to next line on small screens */
